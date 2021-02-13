@@ -4937,9 +4937,1247 @@ function displayValue() {
     return;
   }
 
-  // To-do: 700 to 999
+  // Display cases for when user clicks numbers from 800 to 809
 
-  // Numbers from 1 to 9
+  if (variable == 80 && CurrentValue == 0) {
+    display.textContent = 800;
+    variable = 800;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 1) {
+    display.textContent = 801;
+    variable = 801;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 2) {
+    display.textContent = 802;
+    variable = 802;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 3) {
+    display.textContent = 803;
+    variable = 803;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 4) {
+    display.textContent = 804;
+    variable = 804;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 5) {
+    display.textContent = 805;
+    variable = 805;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 6) {
+    display.textContent = 806;
+    variable = 806;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 7) {
+    display.textContent = 807;
+    variable = 807;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 8) {
+    display.textContent = 808;
+    variable = 808;
+    return;
+  }
+
+  if (variable == 80 && CurrentValue == 9) {
+    display.textContent = 809;
+    variable = 809;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 810 to 819
+
+  if (variable == 81 && CurrentValue == 0) {
+    display.textContent = 810;
+    variable = 810;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 1) {
+    display.textContent = 811;
+    variable = 811;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 2) {
+    display.textContent = 812;
+    variable = 812;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 3) {
+    display.textContent = 813;
+    variable = 813;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 4) {
+    display.textContent = 814;
+    variable = 814;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 5) {
+    display.textContent = 815;
+    variable = 815;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 6) {
+    display.textContent = 816;
+    variable = 816;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 7) {
+    display.textContent = 817;
+    variable = 817;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 8) {
+    display.textContent = 818;
+    variable = 818;
+    return;
+  }
+
+  if (variable == 81 && CurrentValue == 9) {
+    display.textContent = 819;
+    variable = 819;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 820 to 829
+
+  if (variable == 82 && CurrentValue == 0) {
+    display.textContent = 820;
+    variable = 820;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 1) {
+    display.textContent = 821;
+    variable = 821;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 2) {
+    display.textContent = 822;
+    variable = 822;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 3) {
+    display.textContent = 823;
+    variable = 823;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 4) {
+    display.textContent = 824;
+    variable = 824;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 5) {
+    display.textContent = 825;
+    variable = 825;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 6) {
+    display.textContent = 826;
+    variable = 826;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 7) {
+    display.textContent = 827;
+    variable = 827;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 8) {
+    display.textContent = 828;
+    variable = 828;
+    return;
+  }
+
+  if (variable == 82 && CurrentValue == 9) {
+    display.textContent = 829;
+    variable = 829;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 830 to 839
+
+  if (variable == 83 && CurrentValue == 0) {
+    display.textContent = 830;
+    variable = 830;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 1) {
+    display.textContent = 831;
+    variable = 831;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 2) {
+    display.textContent = 832;
+    variable = 832;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 3) {
+    display.textContent = 833;
+    variable = 833;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 4) {
+    display.textContent = 834;
+    variable = 834;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 5) {
+    display.textContent = 835;
+    variable = 835;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 6) {
+    display.textContent = 836;
+    variable = 836;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 7) {
+    display.textContent = 837;
+    variable = 837;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 8) {
+    display.textContent = 838;
+    variable = 838;
+    return;
+  }
+
+  if (variable == 83 && CurrentValue == 9) {
+    display.textContent = 839;
+    variable = 839;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 840 to 849
+
+  if (variable == 84 && CurrentValue == 0) {
+    display.textContent = 840;
+    variable = 840;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 1) {
+    display.textContent = 841;
+    variable = 841;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 2) {
+    display.textContent = 842;
+    variable = 842;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 3) {
+    display.textContent = 843;
+    variable = 843;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 4) {
+    display.textContent = 844;
+    variable = 844;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 5) {
+    display.textContent = 845;
+    variable = 845;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 6) {
+    display.textContent = 846;
+    variable = 846;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 7) {
+    display.textContent = 847;
+    variable = 847;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 8) {
+    display.textContent = 848;
+    variable = 848;
+    return;
+  }
+
+  if (variable == 84 && CurrentValue == 9) {
+    display.textContent = 849;
+    variable = 849;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 850 to 859
+
+  if (variable == 85 && CurrentValue == 0) {
+    display.textContent = 850;
+    variable = 850;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 1) {
+    display.textContent = 851;
+    variable = 851;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 2) {
+    display.textContent = 852;
+    variable = 852;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 3) {
+    display.textContent = 853;
+    variable = 853;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 4) {
+    display.textContent = 854;
+    variable = 854;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 5) {
+    display.textContent = 855;
+    variable = 855;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 6) {
+    display.textContent = 856;
+    variable = 856;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 7) {
+    display.textContent = 857;
+    variable = 857;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 8) {
+    display.textContent = 858;
+    variable = 858;
+    return;
+  }
+
+  if (variable == 85 && CurrentValue == 9) {
+    display.textContent = 859;
+    variable = 859;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 860 to 869
+
+  if (variable == 86 && CurrentValue == 0) {
+    display.textContent = 860;
+    variable = 860;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 1) {
+    display.textContent = 861;
+    variable = 861;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 2) {
+    display.textContent = 862;
+    variable = 862;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 3) {
+    display.textContent = 863;
+    variable = 863;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 4) {
+    display.textContent = 864;
+    variable = 864;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 5) {
+    display.textContent = 865;
+    variable = 865;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 6) {
+    display.textContent = 866;
+    variable = 866;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 7) {
+    display.textContent = 867;
+    variable = 867;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 8) {
+    display.textContent = 868;
+    variable = 868;
+    return;
+  }
+
+  if (variable == 86 && CurrentValue == 9) {
+    display.textContent = 869;
+    variable = 869;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 870 to 879
+
+  if (variable == 87 && CurrentValue == 0) {
+    display.textContent = 870;
+    variable = 870;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 1) {
+    display.textContent = 871;
+    variable = 871;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 2) {
+    display.textContent = 872;
+    variable = 872;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 3) {
+    display.textContent = 873;
+    variable = 873;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 4) {
+    display.textContent = 874;
+    variable = 874;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 5) {
+    display.textContent = 875;
+    variable = 875;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 6) {
+    display.textContent = 876;
+    variable = 876;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 7) {
+    display.textContent = 877;
+    variable = 877;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 8) {
+    display.textContent = 878;
+    variable = 878;
+    return;
+  }
+
+  if (variable == 87 && CurrentValue == 9) {
+    display.textContent = 879;
+    variable = 879;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 880 to 889
+
+  if (variable == 88 && CurrentValue == 0) {
+    display.textContent = 880;
+    variable = 880;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 1) {
+    display.textContent = 881;
+    variable = 881;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 2) {
+    display.textContent = 882;
+    variable = 882;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 3) {
+    display.textContent = 883;
+    variable = 883;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 4) {
+    display.textContent = 884;
+    variable = 884;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 5) {
+    display.textContent = 885;
+    variable = 885;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 6) {
+    display.textContent = 886;
+    variable = 886;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 7) {
+    display.textContent = 887;
+    variable = 887;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 8) {
+    display.textContent = 888;
+    variable = 888;
+    return;
+  }
+
+  if (variable == 88 && CurrentValue == 9) {
+    display.textContent = 889;
+    variable = 889;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 890 to 899
+
+  if (variable == 89 && CurrentValue == 0) {
+    display.textContent = 890;
+    variable = 890;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 1) {
+    display.textContent = 891;
+    variable = 891;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 2) {
+    display.textContent = 892;
+    variable = 892;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 3) {
+    display.textContent = 893;
+    variable = 893;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 4) {
+    display.textContent = 894;
+    variable = 894;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 5) {
+    display.textContent = 895;
+    variable = 895;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 6) {
+    display.textContent = 896;
+    variable = 896;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 7) {
+    display.textContent = 897;
+    variable = 897;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 8) {
+    display.textContent = 898;
+    variable = 898;
+    return;
+  }
+
+  if (variable == 89 && CurrentValue == 9) {
+    display.textContent = 899;
+    variable = 899;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 900 to 909
+
+  if (variable == 90 && CurrentValue == 0) {
+    display.textContent = 900;
+    variable = 900;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 1) {
+    display.textContent = 901;
+    variable = 901;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 2) {
+    display.textContent = 902;
+    variable = 902;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 3) {
+    display.textContent = 903;
+    variable = 903;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 4) {
+    display.textContent = 904;
+    variable = 904;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 5) {
+    display.textContent = 905;
+    variable = 905;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 6) {
+    display.textContent = 906;
+    variable = 906;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 7) {
+    display.textContent = 907;
+    variable = 907;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 8) {
+    display.textContent = 908;
+    variable = 908;
+    return;
+  }
+
+  if (variable == 90 && CurrentValue == 9) {
+    display.textContent = 909;
+    variable = 909;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 910 to 919
+
+  if (variable == 91 && CurrentValue == 0) {
+    display.textContent = 910;
+    variable = 910;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 1) {
+    display.textContent = 911;
+    variable = 911;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 2) {
+    display.textContent = 912;
+    variable = 912;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 3) {
+    display.textContent = 913;
+    variable = 913;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 4) {
+    display.textContent = 914;
+    variable = 914;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 5) {
+    display.textContent = 915;
+    variable = 915;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 6) {
+    display.textContent = 916;
+    variable = 916;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 7) {
+    display.textContent = 917;
+    variable = 917;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 8) {
+    display.textContent = 918;
+    variable = 918;
+    return;
+  }
+
+  if (variable == 91 && CurrentValue == 9) {
+    display.textContent = 919;
+    variable = 919;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 920 to 929
+
+  if (variable == 92 && CurrentValue == 0) {
+    display.textContent = 920;
+    variable = 920;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 1) {
+    display.textContent = 921;
+    variable = 921;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 2) {
+    display.textContent = 922;
+    variable = 922;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 3) {
+    display.textContent = 923;
+    variable = 923;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 4) {
+    display.textContent = 924;
+    variable = 924;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 5) {
+    display.textContent = 925;
+    variable = 925;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 6) {
+    display.textContent = 926;
+    variable = 926;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 7) {
+    display.textContent = 927;
+    variable = 927;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 8) {
+    display.textContent = 928;
+    variable = 928;
+    return;
+  }
+
+  if (variable == 92 && CurrentValue == 9) {
+    display.textContent = 929;
+    variable = 929;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 930 to 939
+
+  if (variable == 93 && CurrentValue == 0) {
+    display.textContent = 930;
+    variable = 930;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 1) {
+    display.textContent = 931;
+    variable = 931;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 2) {
+    display.textContent = 932;
+    variable = 932;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 3) {
+    display.textContent = 933;
+    variable = 933;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 4) {
+    display.textContent = 934;
+    variable = 934;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 5) {
+    display.textContent = 935;
+    variable = 935;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 6) {
+    display.textContent = 936;
+    variable = 936;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 7) {
+    display.textContent = 937;
+    variable = 937;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 8) {
+    display.textContent = 938;
+    variable = 938;
+    return;
+  }
+
+  if (variable == 93 && CurrentValue == 9) {
+    display.textContent = 939;
+    variable = 939;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 940 to 949
+
+  if (variable == 94 && CurrentValue == 0) {
+    display.textContent = 940;
+    variable = 940;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 1) {
+    display.textContent = 941;
+    variable = 941;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 2) {
+    display.textContent = 942;
+    variable = 942;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 3) {
+    display.textContent = 943;
+    variable = 943;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 4) {
+    display.textContent = 944;
+    variable = 944;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 5) {
+    display.textContent = 945;
+    variable = 945;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 6) {
+    display.textContent = 946;
+    variable = 946;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 7) {
+    display.textContent = 947;
+    variable = 947;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 8) {
+    display.textContent = 948;
+    variable = 948;
+    return;
+  }
+
+  if (variable == 94 && CurrentValue == 9) {
+    display.textContent = 949;
+    variable = 949;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 950 to 959
+
+  if (variable == 95 && CurrentValue == 0) {
+    display.textContent = 950;
+    variable = 950;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 1) {
+    display.textContent = 951;
+    variable = 951;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 2) {
+    display.textContent = 952;
+    variable = 952;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 3) {
+    display.textContent = 953;
+    variable = 953;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 4) {
+    display.textContent = 954;
+    variable = 954;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 5) {
+    display.textContent = 955;
+    variable = 955;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 6) {
+    display.textContent = 956;
+    variable = 956;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 7) {
+    display.textContent = 957;
+    variable = 957;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 8) {
+    display.textContent = 958;
+    variable = 958;
+    return;
+  }
+
+  if (variable == 95 && CurrentValue == 9) {
+    display.textContent = 959;
+    variable = 959;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 960 to 969
+
+  if (variable == 96 && CurrentValue == 0) {
+    display.textContent = 960;
+    variable = 960;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 1) {
+    display.textContent = 961;
+    variable = 961;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 2) {
+    display.textContent = 962;
+    variable = 962;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 3) {
+    display.textContent = 963;
+    variable = 963;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 4) {
+    display.textContent = 964;
+    variable = 964;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 5) {
+    display.textContent = 965;
+    variable = 965;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 6) {
+    display.textContent = 966;
+    variable = 966;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 7) {
+    display.textContent = 967;
+    variable = 967;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 8) {
+    display.textContent = 968;
+    variable = 968;
+    return;
+  }
+
+  if (variable == 96 && CurrentValue == 9) {
+    display.textContent = 969;
+    variable = 969;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 970 to 979
+
+  if (variable == 97 && CurrentValue == 0) {
+    display.textContent = 970;
+    variable = 970;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 1) {
+    display.textContent = 971;
+    variable = 971;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 2) {
+    display.textContent = 972;
+    variable = 972;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 3) {
+    display.textContent = 973;
+    variable = 973;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 4) {
+    display.textContent = 974;
+    variable = 974;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 5) {
+    display.textContent = 975;
+    variable = 975;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 6) {
+    display.textContent = 976;
+    variable = 976;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 7) {
+    display.textContent = 977;
+    variable = 977;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 8) {
+    display.textContent = 978;
+    variable = 978;
+    return;
+  }
+
+  if (variable == 97 && CurrentValue == 9) {
+    display.textContent = 979;
+    variable = 979;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 980 to 989
+
+  if (variable == 98 && CurrentValue == 0) {
+    display.textContent = 980;
+    variable = 980;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 1) {
+    display.textContent = 981;
+    variable = 981;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 2) {
+    display.textContent = 982;
+    variable = 982;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 3) {
+    display.textContent = 983;
+    variable = 983;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 4) {
+    display.textContent = 984;
+    variable = 984;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 5) {
+    display.textContent = 985;
+    variable = 985;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 6) {
+    display.textContent = 986;
+    variable = 986;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 7) {
+    display.textContent = 987;
+    variable = 987;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 8) {
+    display.textContent = 988;
+    variable = 988;
+    return;
+  }
+
+  if (variable == 98 && CurrentValue == 9) {
+    display.textContent = 989;
+    variable = 989;
+    return;
+  }
+
+  // Display cases for when user clicks numbers from 990 to 999
+
+  if (variable == 99 && CurrentValue == 0) {
+    display.textContent = 990;
+    variable = 990;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 1) {
+    display.textContent = 991;
+    variable = 991;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 2) {
+    display.textContent = 992;
+    variable = 992;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 3) {
+    display.textContent = 993;
+    variable = 993;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 4) {
+    display.textContent = 994;
+    variable = 994;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 5) {
+    display.textContent = 995;
+    variable = 995;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 6) {
+    display.textContent = 996;
+    variable = 996;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 7) {
+    display.textContent = 997;
+    variable = 997;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 8) {
+    display.textContent = 998;
+    variable = 998;
+    return;
+  }
+
+  if (variable == 99 && CurrentValue == 9) {
+    display.textContent = 999;
+    variable = 999;
+    return;
+  }
+
+  // Numbers from 0 to 9
 
   if (CurrentValue == 1) {
     display.textContent = 1;
