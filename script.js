@@ -41,30 +41,30 @@ const equal = document.querySelector(".equal");
 
 function add(a, b) {
   // Basic function that adds
-  let result = a + b;
+  let resultado = a + b;
 
-  return result;
+  return resultado;
 }
 
 function subtract(a, b) {
   // Basic function that subtracts
-  let result = a - b;
+  let resultado = a - b;
 
-  return result;
+  return resultado;
 }
 
 function multiply(a, b) {
   // Basic function that multiplies
-  let result = a * b;
+  let resultado = a * b;
 
-  return result;
+  return resultado;
 }
 
 function divide(a, b) {
   // Basic function that divides
-  let result = a / b;
+  let resultado = a / b;
 
-  return result;
+  return resultado;
 }
 
 // 2. Operate function (in case of a operator and the presence of two numbers, aplly the operation)
@@ -6324,7 +6324,95 @@ function displayOperator() {
 
 let result;
 
+let anotherResult;
+
+let anotherAnotherResult;
+
 function calculate() {
+  // Third piece of logic
+  if (anotherResult && operator == "+") {
+    anotherAnotherResult = operate(anotherResult, "+", variable);
+
+    display.textContent = anotherAnotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  if (anotherResult && operator == "-") {
+    anotherAnotherResult = operate(anotherResult, "-", variable);
+
+    display.textContent = anotherAnotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  if (anotherResult && operator == "*") {
+    anotherAnotherResult = operate(anotherResult, "*", variable);
+
+    display.textContent = anotherAnotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  if (anotherResult && operator == "/") {
+    anotherAnotherResult = operate(anotherResult, "/", variable);
+
+    display.textContent = anotherAnotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  // Second piece of logic
+
+  if (result && operator == "+") {
+    anotherResult = operate(result, "+", variable);
+
+    display.textContent = anotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  if (result && operator == "-") {
+    anotherResult = operate(result, "-", variable);
+
+    display.textContent = anotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  if (result && operator == "*") {
+    anotherResult = operate(result, "*", variable);
+
+    display.textContent = anotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  if (result && operator == "/") {
+    anotherResult = operate(result, "/", variable);
+
+    display.textContent = anotherResult;
+
+    operator = null;
+
+    return;
+  }
+
+  // First piece of logic
   if (intermediateResult && operator == "+") {
     result = operate(intermediateResult, "+", variable);
 
@@ -6372,6 +6460,10 @@ function Clear() {
   operator = null;
 
   result = null;
+
+  anotherResult = null;
+
+  anotherAnotherResult = null;
 
   displayVariable = null;
 
