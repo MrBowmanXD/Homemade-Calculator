@@ -30,7 +30,7 @@ const multiplySign = document.querySelector(".multiply");
 
 const divisionSign = document.querySelector(".divide");
 
-const Clear = document.querySelector(".clear");
+const clear = document.querySelector(".clear");
 
 const equal = document.querySelector(".equal");
 
@@ -96,9 +96,7 @@ function displayValue() {
 
   // If operator was clicked, then return
 
-  if (operator) {
-    variable = null;
-  }
+  // if (operator && typeof CurrentValue != "number") {} (To check later)
 
   // Display cases for when user clicks numbers from 10 to 19
 
@@ -707,6 +705,8 @@ function displayOperator() {
 
     operator = "+";
 
+    variable = null;
+
     return;
   } else if (this.textContent == "-") {
     a = variable;
@@ -716,6 +716,8 @@ function displayOperator() {
     intermediateResult = a;
 
     operator = "-";
+
+    variable = null;
 
     return;
   } else if (this.textContent == "*") {
@@ -727,6 +729,8 @@ function displayOperator() {
 
     operator = "*";
 
+    variable = null;
+
     return;
   } else if (this.textContent == "/") {
     a = variable;
@@ -736,6 +740,8 @@ function displayOperator() {
     intermediateResult = a;
 
     operator = "/";
+
+    variable = null;
 
     return;
   }
