@@ -94,10 +94,6 @@ const display = document.querySelector(".display");
 function displayValue() {
   let CurrentValue = this.textContent;
 
-  // If operator was clicked, then return
-
-  // if (operator && typeof CurrentValue != "number") {} (To check later)
-
   // Display cases for when user clicks numbers from 10 to 19
 
   if (variable == 1 && CurrentValue == 2) {
@@ -638,7 +634,7 @@ function displayValue() {
     return "No such number";
   }
 
-  // Display text (11, 22, 33 ,44 ,55 ,66 ,77, 88, 99)
+  // Display numbers (11, 22, 33 ,44 ,55 ,66 ,77, 88, 99)
 
   if (variable == 1 && CurrentValue == 1) {
     display.textContent = 11;
@@ -789,6 +785,22 @@ function calculate() {
   }
 }
 
+function Clear() {
+  a = null;
+
+  intermediateResult = null;
+
+  operator = null;
+
+  result = null;
+
+  displayVariable = null;
+
+  variable = null;
+
+  display.textContent = "";
+}
+
 // Event Listener's
 numberOne.addEventListener("click", displayValue);
 
@@ -819,5 +831,7 @@ multiplySign.addEventListener("click", displayOperator);
 divisionSign.addEventListener("click", displayOperator);
 
 equal.addEventListener("click", calculate);
+
+clear.addEventListener("click", Clear);
 
 // save wich operation has been chosen and then operate() on them when the user presses the "=" key
