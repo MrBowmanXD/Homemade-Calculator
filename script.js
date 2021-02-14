@@ -6330,6 +6330,8 @@ let anotherAnotherResult;
 
 function calculate() {
   // Third piece of logic
+  
+
   if (anotherResult && operator == "+") {
     anotherAnotherResult = operate(anotherResult, "+", variable);
 
