@@ -3,38 +3,22 @@
 // Constanst of the buttons
 
 const numberOne = document.querySelector(".number1");
-
 const numberTwo = document.querySelector(".number2");
-
 const numberThree = document.querySelector(".number3");
-
 const numberFour = document.querySelector(".number4");
-
 const numberFive = document.querySelector(".number5");
-
 const numberSix = document.querySelector(".number6");
-
 const numberSeven = document.querySelector(".number7");
-
 const numberEight = document.querySelector(".number8");
-
 const numberNine = document.querySelector(".number9");
-
 const numberZero = document.querySelector(".number0");
-
 const plusSign = document.querySelector(".plusSign");
-
 const minusSign = document.querySelector(".minusSign");
-
 const multiplySign = document.querySelector(".multiply");
-
 const divisionSign = document.querySelector(".divide");
-
 const clear = document.querySelector(".clear");
-
 const equal = document.querySelector(".equal");
-
-// let numOne = (numTwo = operator = null);
+const display = document.querySelector(".display");
 
 /////////////////////////////////////////////////
 // 1. Basic math operations
@@ -88,8 +72,6 @@ function operate(a, operator, b) {
 let displayVariable;
 
 let variable;
-
-const display = document.querySelector(".display");
 
 function displayValue() {
   let CurrentValue = this.textContent;
@@ -6330,7 +6312,6 @@ let anotherAnotherResult;
 
 function calculate() {
   // Third piece of logic
-  
 
   if (anotherResult && operator == "+") {
     anotherAnotherResult = operate(anotherResult, "+", variable);
@@ -6476,35 +6457,20 @@ function Clear() {
 
 // Event Listener's
 numberOne.addEventListener("click", displayValue);
-
 numberTwo.addEventListener("click", displayValue);
-
 numberThree.addEventListener("click", displayValue);
-
 numberFour.addEventListener("click", displayValue);
-
 numberFive.addEventListener("click", displayValue);
-
 numberSix.addEventListener("click", displayValue);
-
 numberSeven.addEventListener("click", displayValue);
-
 numberEight.addEventListener("click", displayValue);
-
 numberNine.addEventListener("click", displayValue);
-
 numberZero.addEventListener("click", displayValue);
-
 plusSign.addEventListener("click", displayOperator);
-
 minusSign.addEventListener("click", displayOperator);
-
 multiplySign.addEventListener("click", displayOperator);
-
 divisionSign.addEventListener("click", displayOperator);
-
 equal.addEventListener("click", calculate);
-
 clear.addEventListener("click", Clear);
 
 // save wich operation has been chosen and then operate() on them when the user presses the "=" key
